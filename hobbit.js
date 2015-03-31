@@ -15,4 +15,12 @@ Hobbit.prototype.celebrateBirthday = function() {
 	this.age += 1
 };
 
+Hobbit.prototype.isAdult = function() {
+	if(this.age <= 32) {
+		return false
+	} else {
+		return true
+	}
+};
+
 module.exports = Hobbit 
