@@ -4,11 +4,11 @@ function Unicorn(name, color) {
 		this.color = "white"
 	} else {
 		this.color = color;
-	} 
+	}
 };
 
 Unicorn.prototype.isWhite = function() {
-	if (this.color === "white") { return true; } 
+	if (this.color === "white") { return true; }
 	else                        { return false; }
 };
 
